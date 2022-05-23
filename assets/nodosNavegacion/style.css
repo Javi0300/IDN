@@ -1,0 +1,25 @@
+
+
+#pp-nav span {
+  border-color: #fff!important;
+  background: rgb(26, 50, 184)!important;
+  border: 4px solid #fff!important;
+  height: 16px!important;
+  width: 16px!important;
+}
+
+#pp-nav li  {
+  margin-bottom: 30px!important;
+
+}
+@media screen and (min-width: 720px){
+  
+  #pp-nav span  {
+    left: -30px!important;
+  
+  }
+  
+}
+#pp-nav li .active span, .pp-slidesNav .active span {
+  background: rgb(255, 0, 0)!important;
+}
