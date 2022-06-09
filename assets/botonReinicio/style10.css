@@ -1,0 +1,19 @@
+.botones {
+  position:absolute;z-index:10;margin-top:-52px;top:50%;opacity:1;width: 16px!important;
+    /*transform: translateY();*/
+}
+.botones a{
+    border: 10px solid #000000;
+    display: block;
+    margin: 10px;
+    height: 10px;
+
+}
+@media screen and (min-width: 720px){
+  
+    .botones {
+      right: -30px!important;
+    
+    }
+    
+  }
