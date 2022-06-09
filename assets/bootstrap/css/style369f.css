@@ -1,0 +1,602 @@
+.auto-container{
+	position:static;
+	max-width:1200px;
+	padding:0px 15px;
+	margin:0 auto;
+}
+.page-wrapper{
+	position:relative;
+	margin:0 auto;
+	width:100%;
+	min-width:300px;
+}
+
+ul,li{
+	list-style:none;
+	padding:0px;
+	margin:0px;	
+}
+
+.theme-btn{
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.centered{
+	text-align:center;	
+}
+
+.btn-style-one{
+	position:relative;
+	padding:8px 20px;
+	line-height:20px;
+	text-transform:uppercase;
+	display:inline-block;
+	background:#71b100;
+	color:#ffffff !important;
+	font-size:11px;
+	font-style:normal;
+	border:2px solid #71b100 !important;
+	font-family: 'Montserrat', sans-serif;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-moz-border-radius:3px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.btn-style-one .icon{
+	position:relative;
+	padding-left:5px;	
+}
+
+.btn-style-one:hover{
+	background:#ffffff;
+	color:#71b100 !important;
+	border-color:#71b100 !important;	
+}
+
+.btn-style-two{
+	position:relative;
+	padding:8px 20px;
+	line-height:20px;
+	text-transform:uppercase;
+	display:inline-block;
+	background:none;
+	color:#ffffff !important;
+	font-size:11px;
+	border:2px solid #ffffff !important;
+	font-family: 'Montserrat', sans-serif;
+	font-style:normal;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-moz-border-radius:3px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.btn-style-two .icon{
+	position:relative;
+	padding-left:5px;	
+}
+
+.btn-style-two:hover{
+	background:#ffffff;
+	color:#71b100 !important;
+	border-color:#ffffff !important;	
+}
+/*** 
+
+====================================================================
+	Scroll To Top style
+====================================================================
+
+***/
+
+.scroll-to-top{
+	position:fixed;
+	bottom:10px;
+	right:10px;
+	width:34px;
+	height:34px;
+	color:#71b100;
+	background:#f3f3f3;
+	font-size:16px;
+	line-height:32px;
+	text-align:center;
+	z-index:100;
+	cursor:pointer;
+	border:1px solid #cccccc;
+	display:none;
+	border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	-o-border-radius:3px;
+	-moz-border-radius:3px;	
+}
+
+.scroll-to-top:hover{
+	background-color:#71b100;
+	border-color:#71b100;
+	color:#ffffff;
+}
+
+/*** 
+
+====================================================================
+	Main Header style
+====================================================================
+
+***/
+
+.main-header{
+	position:relative;
+	left:0px;
+	top:0px;
+	z-index:999;
+	width:100%;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+
+
+.header-style-one{
+	position:fixed;
+	padding:25px 0px;
+	background:rgba(29, 24, 20, 0.8);
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.header-style-one.fixed-header{
+	padding:0px;	
+}
+
+.header-style-one .outer-box{
+	position:relative;	
+}
+
+.header-style-one .logo{
+	position:relative;
+	float:left;
+	padding:5px 20px 5px 0px;
+}
+
+.header-style-one .logo img{
+	position:relative;
+	display:inline-block;
+	max-width:100%;
+	z-index:1;
+}
+/***************Logo IDN***************/
+.header-style-one .logo:before{
+	content:'';
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:1500px;
+	height:100%;
+	background:#ffffff;
+	transform:skewX(-20deg);
+	-webkit-transform:skewX(-20deg);
+	-ms-transform:skewX(-20deg);
+	-o-transform:skewX(-20deg);
+	-moz-transform:skewX(-20deg);	
+}
+
+.header-style-one .header-right{
+	position:relative;
+	float:right;	
+}
+
+.header-style-one .info-box{
+	position:relative;
+	float:right;
+	margin-bottom:10px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.header-style-one.fixed-header .info-box{
+	opacity:0;
+	visibility:hidden;
+	margin-top:-200px;
+	margin-bottom:0px;	
+}
+/***Información ocultable (Mérida/Yucatán)****/
+.header-style-one .info-box li{
+	position:relative;
+	float:left;
+	margin-bottom:10px;
+	font-size:12px;
+	min-height:40px;
+	font-family: 'Bitter', serif;	
+	font-style:italic;
+	color:#90a2a8;
+}
+
+.header-style-one .info-box li .btn-style-one{
+	top:4px;	
+}
+
+.header-style-one .info-box li a{
+	color:#90a2a8;	
+}
+
+.header-style-one .info-box li a:hover{
+	color:#19abff;	
+}
+
+.header-style-one .info-box li.separator{
+	position:relative;
+	margin:0px 25px;
+	width:2px;
+	height:40px;
+	background:#777777;
+	background:-webkit-linear-gradient(top,rgba(0,0,0,0),#c9a57d65,rgba(221, 42, 42, 0));
+	background:-moz-linear-gradient(top,rgba(0,0,0,0),#c9a57d65,rgba(0,0,0,0));
+	background:-ms-linear-gradient(top,rgba(0,0,0,0),#c9a57d65,rgba(0,0,0,0));
+	background:-o-linear-gradient(top,rgba(0,0,0,0),#c9a57d65,rgba(0,0,0,0));
+}
+
+.header-style-one .info-box li.address,
+.header-style-one .info-box li.contact-info{
+	padding-left:50px;	
+}
+
+.header-style-one .info-box li .icon{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:50px;
+	font-size:36px;
+	line-height:42px;
+	color:#005cc5;
+	font-style:normal;
+}
+
+.header-style-one .main-menu{
+	position:relative;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.header-style-one.fixed-header .main-menu{
+	padding-top:30px;	
+}
+
+.header-style-one .main-menu .navbar-collapse{
+	padding:0px;	
+}
+
+.header-style-one .main-menu .navigation{
+	position:relative;
+	float:right;	
+}
+
+.header-style-one .main-menu .navigation > li{
+	position:relative;
+	float:left;
+	margin-left:30px;
+}
+
+.header-style-one .main-menu .navigation > li > a{
+	position:relative;
+	display:block;
+	text-transform:uppercase;
+	padding:0px 0px;
+	color:#000000;
+	font-size:12px;
+	transition:all 300ms ease;
+	-moz-transition:all 300ms ease;
+	-webkit-transition:all 300ms ease;
+	-ms-transition:all 300ms ease;
+	-o-transition:all 300ms ease;
+}
+
+.header-style-one .main-menu .navigation > li:hover > a,
+.header-style-one .main-menu .navigation > li.current > a,
+.header-style-one .main-menu .navigation > li.current-menu-item > a{
+	color:#ffffff;	
+}
+
+.header-style-one .main-menu .navigation > li > ul{
+	position:absolute;
+	left:50%;
+	margin-left:-110px;
+	top:100px;
+	width:220px;
+	padding:0px;
+	text-align:center;
+	border:1px solid #71b100;
+	border-top-width:4px;
+	z-index:100;
+	background:#ffffff;
+	visibility:hidden;
+	opacity:0;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.header-style-one .main-menu .navigation > li > ul:before{
+	font-family: 'FontAwesome';
+	content: "\f0d8";
+	position:absolute;
+	left:0px;
+	top:-20px;
+	padding-top:4px;
+	text-align:center;
+	display:block;
+	width:100%;
+	width:100%;
+	height:20px;
+	display:block;
+	color:#71b100;
+	line-height:20px;
+	font-size:28px;
+	z-index:5;	
+}
+
+.header-style-one .main-menu .navigation > li:hover > ul {
+	top:40px;
+	opacity:1;
+	visibility:visible;	
+}
+
+.header-style-one .main-menu .navigation > li > ul > li{
+	position:relative;
+	float:none;
+	width:100%;
+	border-bottom:1px solid #efefef;
+}
+
+.header-style-one .main-menu .navigation > li > ul > li:last-child{
+	border:none;	
+}
+
+.header-style-one .main-menu .navigation > li > ul > li > a{
+	position:relative;
+	display:block;
+	padding:8px 15px 8px 30px;
+	line-height:20px;
+	font-weight:normal;
+	font-size:12px;
+	color:#3a3a3a;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.header-style-one .main-menu .navigation > li > ul > li:hover > a{
+	color:#ffffff;
+	background-color:#71b100;	
+}
+
+
+/******Header Style Two******/
+
+.header-style-two .header-top{
+	position:relative;
+	background:#1a1d1f;
+	color:#999999;	
+}
+
+.header-style-two .header-top .auto-container{
+	padding-left:200px;
+}
+
+.header-style-two .header-top .top-right{
+	position:relative;
+	float:right;	
+}
+
+.header-style-two .header-top .info,
+.header-style-two .header-top .social-links{
+	position:relative;
+	float:left;
+	margin-left:30px;
+		
+}
+
+.header-style-two .header-top .info li{
+	position: relative;
+	float: left;
+	/* margin-left: 20px; */
+	line-height: 26px;
+	padding: 12px 35px;
+	border-right: 1px solid #2B3034;
+}
+
+.header-style-two .header-top .info li .icon{
+	position:relative;
+	top:1px;
+	font-size:14px;
+	padding-right:5px;	
+}
+
+.header-style-two .header-top .info li a{
+	color:#e0e0e0;
+	display:block;
+	font-size:13px;
+	transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+}
+
+.header-style-two .header-top .info li a:hover{
+	color:#71B100;	
+}
+
+.header-style-two .header-top .social-links a{
+	position: relative;
+	display: inline-block;
+	width: 26px;
+	height: 50px;
+	margin-left: 3px;
+	line-height: 50px;
+	border: 0;
+	color: #e0e0e0;
+	font-size: 15px;
+	text-align: center;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+
+.header-style-two .header-top .social-links a:hover{
+	color:#71B100;
+}
+
+.header-style-two .main-menu{
+	position:relative;
+	float:right;	
+}
+
+
+.header-style-two.fixed-header .header-lower{
+	position:fixed;	
+	box-shadow: 0 0 1px rgba(0,0,0,.5);
+}
+
+.header-style-two .lower-outer{
+	position:relative;
+	padding:0px 0px 0px 240px;	
+}
+
+.header-style-two .header-lower .logo{
+	position:absolute;
+	left:0px;
+	bottom:0px;
+	text-align:center;
+	width:234px;
+	max-height:150px;
+	background:#71b100;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.header-style-two .header-lower .logo img{
+	display:inline-block;
+	max-width:100%;
+	max-height:150px;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.header-style-two.fixed-header .header-lower .logo img{
+	max-height:100px;
+}
+
+.header-style-two .main-menu .navbar-collapse{
+	padding:0px;	
+}
+
+.header-style-two .main-menu .navigation{
+	position:relative;
+	float:right;
+	margin:0px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.header-style-two .main-menu .navigation > li{
+	position:relative;
+	float:left;
+	padding:0px;
+	margin-left:40px;	
+}
+
+.header-style-two .main-menu .navigation > li > a{
+	position:relative;
+	display:block;
+	padding:36px 5px;
+	font-size:13px;
+	color:#3a3a3a;
+	line-height:28px;
+	text-transform:uppercase;
+	opacity:1;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;
+}
+
+.header-style-two .main-menu .navigation > li > a:before,
+.main-menu .navbar-collapse > ul > li.current-menu-parent > a:before{
+	content:'';
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:0px;
+	height:4px;
+	background:#71b100;
+	transition:all 500ms ease;
+	-moz-transition:all 500ms ease;
+	-webkit-transition:all 500ms ease;
+	-ms-transition:all 500ms ease;
+	-o-transition:all 500ms ease;	
+}
+
+.fixed-header .header-style-two .main-menu .navigation > li > a{
+	padding:34px 15px 26px;	
+}
+
+.header-style-two .main-menu .navigation > li:hover > a,
+.header-style-two .main-menu .navigation > li.current > a,
+.header-style-two .main-menu .navigation > li.current-menu-item > a,
+.main-menu .navbar-collapse > ul > li.current-menu-parent > a{
+	color:#ffffff;
+	opacity:1;
+}
+
+.header-style-two .main-menu .navigation > li:hover > a:before,
+.header-style-two .main-menu .navigation > li.current > a:before,
+.header-style-two .main-menu .navigation > li.current-menu-item > a:before{
+	width:100%;
+}
+
+
+
+
+
