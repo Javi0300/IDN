@@ -8,10 +8,21 @@
     <meta name="description" content="Somos un equipo de consultores y desarrolladores de software que buscan acercar la tecnología y el conocimiento al alcance de las organizaciones para aumentar su productividad e impulsar su crecimiento." />
 
     <title>Inicio</title>
-    <link rel="stylesheet" href="/assets/navbar/style.css" />
-    <link rel="stylesheet" href="/assets/nodosNavegacion/style.css" />
-
+    <link rel="stylesheet" href="/assets/botonReinicio/style10.css" />
     <link rel="stylesheet" href="/assets/nodosNavegacion/jquery.pagepiling.min.css" />
+    <link rel="stylesheet" href="/assets/nodosNavegacion/style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="/assets/mobirise/css/animaciones.css" />
+    
+    <link rel="stylesheet" href="/assets/bootstrap/css/responsive369f.css" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/style369f.css" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap369f.css" />
+
+    
+   
+
     <link rel="stylesheet" href="/assets/web/assets/mobirise-icons2/mobirise2.css" />
     <link rel="stylesheet" href="/assets/tether/tether.min.css" />
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css" />

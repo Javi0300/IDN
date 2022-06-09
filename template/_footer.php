@@ -59,9 +59,9 @@
             </h5>
             <ul class="list mbr-fonts-style display-4">
               <li class="mbr-text item-wrap"><a href="/">Inicio</a></li>
-              <li class="mbr-text item-wrap"><a href="/servicios">Servicios</a></li>
-              <li class="mbr-text item-wrap"><a href="/nosotros">Nosotros</a></li>
-              <li class="mbr-text item-wrap"><a href="/casos-de-exito">Casos de éxito</a></li>
+              <li class="mbr-text item-wrap"><a href="/#tabs1-f">Servicios</a></li>
+              <li class="mbr-text item-wrap"><a href="/#header14-11">Nosotros</a></li>
+              <li class="mbr-text item-wrap"><a href="/#header14-12">Casos de éxito</a></li>
               <li class="mbr-text item-wrap"><a href="/#contacto">Contacto</a></li>
             </ul>
           </div>
