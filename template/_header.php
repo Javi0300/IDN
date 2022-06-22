@@ -8,20 +8,24 @@
     <meta name="description" content="Somos un equipo de consultores y desarrolladores de software que buscan acercar la tecnología y el conocimiento al alcance de las organizaciones para aumentar su productividad e impulsar su crecimiento." />
 
     <title>Inicio</title>
-    <link rel="stylesheet" href="/assets/botonReinicio/style10.css" />
-    <link rel="stylesheet" href="/assets/nodosNavegacion/jquery.pagepiling.min.css" />
-    <link rel="stylesheet" href="/assets/nodosNavegacion/style.css" />
+    <link rel="stylesheet" href="/assets/nodosNavegacion/jquery.pagepiling.css" />
+    <link rel="stylesheet" href="/assets/nodosNavegacion/styles2.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
 
-    <link rel="stylesheet" href="/assets/mobirise/css/animaciones.css" />
+    <link rel="stylesheet" href="/assets/mobirise/css/animaciones4.css" />
     
-    <link rel="stylesheet" href="/assets/bootstrap/css/responsive369f.css" />
-    <link rel="stylesheet" href="/assets/bootstrap/css/style369f.css" />
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap369f.css" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrapf369f.css" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/responsive3f9.css" />
+    <link rel="stylesheet" href="/assets/bootstrap/css/style65.css" />
 
-    
-   
+    <script src="/assets/mobirise/js/jquery.nav369f.js"></script>
+<script src="/assets/mobirise/js/jqueryb8ff.js"></script>
+
+<script src="/assets/mobirise/js/menu.js"></script>
+<script src="/assets/mobirise/js/jquery.fancybox.pack369f.js"></script>
+<script src="/assets/mobirise/js/wowf369.js"></script>
+<script src="/assets/mobirise/js/owl369.js"></script>
+<script src="/assets/mobirise/js/jquery.mixitup369f.js"></script>
 
     <link rel="stylesheet" href="/assets/web/assets/mobirise-icons2/mobirise2.css" />
     <link rel="stylesheet" href="/assets/tether/tether.min.css" />
@@ -45,7 +49,7 @@
     */ ?>
 
     <!-- <link rel="stylesheet"         href="/assets/mobirise/css/mbr-additional000.css?v=1.1" type="text/css" /> -->
-    <link rel="stylesheet"         href="/assets/mobirise/css/mbr-additional001.css?v=1.1" type="text/css" />
+    <link rel="stylesheet"         href="/assets/mobirise/css/mbr-additional004.css?v=1.1" type="text/css" />
     
   </head>
-  <body>
+<body>

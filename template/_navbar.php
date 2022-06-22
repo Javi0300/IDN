@@ -5,7 +5,7 @@
 					<!--Logo-->
 					<div class="logo">
 						<a href="/">
-              <img src="/assets/images/logo_Sinletras.png" alt="KOBÁ" title="KOBÁ" style="height: 9.6rem"/>
+              <img src="/assets/images/logo-blanco-122x64.png" alt="KOBÁ" title="KOBÁ" style="height: 99px"/>
 						</a>
 					</div>
 					<!--Header Right-->
@@ -14,15 +14,15 @@
 						<div class="info-box clearfix">
 							<ul class="clearfix">
 								<li class="address">
-									<div class="icon"><span class="flaticon-location74"></span></div>
+									<div class="icon"><span><img src="assets/images/alfiler5.png" style="height: 3rem"></span></div>
 									Mérida,<br>Yucatán
 								</li>
 								<li class="separator"></li>
 								<li class="contact-info">
 									<div class="icon">
-										<span class="flaticon-whatsapp2"></span>
+										<span class="flaticon-whatsapp2"><img src="assets/images/whatsapp6.png" style="padding-right: 10px;height: 2.8rem"></span>
 									</div>
-									<a href="tel:+5219999501502">9991.98.39.84</a><br><a href="mailto:ventas@kobamid.mx">ventas@kobamid.mx</a>
+									<a href="tel:+5219993707028">9993.70.70.28</a><br><a href="mailto:elias.galaviz@idnconsultores.com">elias.galaviz@idnconsultores.com</a>
 								</li>
 								
 							</ul>
@@ -42,19 +42,19 @@
 							<div class="navbar-collapse collapse clearfix">
 								<ul class="navigation one-page-nav clearfix">
 									<li id="menu-item-221" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-221 dropdown">
-										<a title="Inicio" href="#" class="hvr-underline-from-left1" aria-expanded="false" data-scroll="" data-options="easing: easeOutQuart">Inicio</a>
+										<a title="Inicio" href="/" class="hvr-underline-from-left1" aria-expanded="false"  data-options="easing: easeOutQuart">Inicio</a>
 									</li>
-                  <li id="menu-item-225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-225">
-										<a title="Concepto" href="#tabs1-f" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Servicios</a>
-									</li>
-									<li id="menu-item-225" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-225">
-										<a title="Concepto" href="#header14-11" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Nosotros</a>
+                  <li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227">
+										<a title="Servicios" href="#tabs1-f" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Servicios</a>
 									</li>
 									<li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227">
-										<a title="Galería" href="#header14-12" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Casos de éxito</a>
+										<a title="Nosotros" href="#header14-11" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Nosotros</a>
 									</li>
-									<li id="menu-item-224" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-224">
-										<a title="Disponibilidad" href="#contacto" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contacto</a>
+									<li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227">
+										<a title="Casos de éxito" href="#header14-12" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Casos de éxito</a>
+									</li>
+									<li id="menu-item-227" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-227">
+										<a title="Contacto" href="#contacto" class="hvr-underline-from-left1" data-scroll="" data-options="easing: easeOutQuart">Contacto</a>
 									</li>
 								</ul>
 							</div>

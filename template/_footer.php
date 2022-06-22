@@ -1,8 +1,4 @@
-<section
-      class="footer4 cid-sz2VmbEtSA mbr-white"
-      once="footers"
-      id="footer4-5"
-    >
+<section class="footer4 cid-sz2VmbEtSA mbr-white" once="footers" id="footer4-5">
       <div class="container">
         <div class="row mbr-white">
           <div class="col-6 col-lg-2">
