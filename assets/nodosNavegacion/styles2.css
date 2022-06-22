@@ -1,0 +1,57 @@
+#botones a{
+    
+    border: 3px solid #000000;
+    display: block;
+    margin: 10px;
+    height: 55px;
+    width: 50px;
+}
+#botones:hover{
+  
+  transform: scale(0.7);
+}
+#botonRegreso a{
+  display: block;
+  margin: 10px;
+  height: 50px;
+  width: 45px;
+}
+.up{
+  animation-name: up;
+  animation-duration: 10s;
+}
+
+#pp-nav span {
+  border-color: #fff!important;
+  background: rgb(26, 50, 184)!important;
+  border: 4px solid #fff!important;
+  height: 16px!important;
+  width: 16px!important;
+}
+
+#pp-nav li  {margin-bottom: 30px!important;}
+
+@media screen and (min-width: 720px){
+  
+  #pp-nav span  {
+    left: -30px!important;
+  
+  }
+  #botones span  {
+    left: -30px!important;
+  
+  }
+  #botonRegreso span  {
+    left: -30px!important;
+  
+  }
+}
+#pp-nav li  .active span {
+  background: rgb(163, 163, 163)!important;
+}
+/*******************Animaciones/Responsive***********************/
+@keyframes up {
+  0% {transform: rotate(180deg);}
+  50% {transform: rotate(-180deg);}
+  100% {transform: rotate(0deg);}
+}
